@@ -1,0 +1,215 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(36, 100%, 99%);
+  padding: 100px;
+  margin: 20px;
+  margin-top: 15px;;
+}
+header{
+  display: inline-flex;
+}
+header div{
+  width:65px;
+   height:40px; 
+}
+nav ul{
+   margin-left: 600px;
+  list-style-type: none;
+  display: flex;
+ gap: 1.5em;
+ font-size: 15px;
+  color:  hsl(236, 13%, 42%);
+font-weight: 400;
+
+}
+p{
+  font-size: 15px;
+}
+main{
+  margin-top: 35px;
+}
+
+.brightfu
+{
+  font-size: 45px;
+  font-weight: 800;
+  max-width: 300px;
+
+}
+/**
+.firstblock
+{
+  max-width: 600px;
+
+}
+
+.firstblock-grid
+{
+  display: grid;
+  gap:1rem;
+  grid-template-columns: repeat(2,1fr);
+}
+.web-3-grid
+{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}**/
+/**style**/
+.s3
+{
+  max-width: 350px;
+  line-height: 24px;
+  color:hsl(236, 13%, 42%)
+}
+.s3 p{
+  margin-bottom: 30px;
+}
+.s3 button
+{
+  
+  background-color: hsl(5, 85%, 63%);
+ border: none;
+  color:hsl(36, 100%, 99%);
+  padding: 9px 30px;
+ font-size: 15px;
+  letter-spacing: 3px;
+}
+.new
+{
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  padding: 20px;;
+ max-width: 340px;
+}
+.new h2{
+  color:hsl(35, 77%, 62%);
+  
+}
+.new-article
+{
+  border-bottom-width:2px ;
+  border-bottom-style: inset;
+  border-bottom-color: hsl(236, 13%, 42%);
+  padding-bottom: 30px;
+}
+.new-article p{
+  color:hsl(233, 8%, 79%);
+  line-height: 25px;
+}
+.new-article h5{
+  margin-bottom: 9px;
+  margin-top: 20px;
+}
+.new:last-child{
+  border-bottom-style:none ;
+}
+.bottomblock-flex
+{
+  display: flex;
+  gap: 0.75rem;
+
+}
+.bottomblocks-img
+
+{
+  width: 6ch;
+
+}
+
+.bottomblocks{
+  max-width:320px;
+}
+.bottomblocks h3{
+  color: hsl(233, 8%, 79%);
+}
+.bottomblocks h5{
+  margin-bottom: 8px;
+  margin-top: 7px;
+  font-weight: 800;
+ /** font-size: 16px;**/
+  color:hsl(240, 100%, 5%);
+}
+.bottomblocks  p{
+  color:hsl(236, 13%, 42%);
+  line-height: 24px;
+  font-size: 15px;
+}
+/**grid**/
+.main-grid{
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3,320px);
+}
+.web-3-grid
+{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.new-grid
+{
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  
+}
+@media(max-width:600px)
+{
+  html{
+    font-size: 16px;
+  }
+  .main-grid{
+    display: grid;
+    gap: 2.5rem;
+    width: 100%;
+    grid-template-columns:375px;
+  }
+  .new-grid{
+    
+
+  }
+  
+}
+.lastbottom
+{
+  border-bottom: none;
+}
+footer{
+  margin-top: 70px;
+}
